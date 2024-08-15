@@ -180,7 +180,7 @@ https://api.postman.com/collections/4433833-4d3581eb-17fe-45e1-9a37-c653296e78cc
 - **Query Parameters**:
   - `id` (required, integer): ID of the task.
 
-### Role Controller (Admin Access Required)
+### Role Controller
 
 #### Get Role by ID
 
@@ -193,6 +193,7 @@ https://api.postman.com/collections/4433833-4d3581eb-17fe-45e1-9a37-c653296e78cc
 
 - **URL**: `/api/v1/role`
 - **Method**: `PUT`
+- **Access**:  Admin
 - **Request Body**:
   ```json
   {
@@ -205,6 +206,7 @@ https://api.postman.com/collections/4433833-4d3581eb-17fe-45e1-9a37-c653296e78cc
 
 - **URL**: `/api/v1/role`
 - **Method**: `POST`
+- **Access**:  Admin
 - **Request Body**:
   ```json
   {
