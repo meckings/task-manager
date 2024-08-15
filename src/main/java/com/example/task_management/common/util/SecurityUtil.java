@@ -19,7 +19,7 @@ public class SecurityUtil {
         throw new UnAuthenticatedException("You need to be authenticate to access this resource");
     }
 
-    public static String hasRole(Roles roles){
+    public static String hasRole(Roles roles) {
         return String.format("hasRole('%s')", roles.name().substring(5));
     }
 }

@@ -6,7 +6,6 @@ import com.example.task_management.common.exceptions.DuplicateResourceException;
 import com.example.task_management.common.exceptions.NotFoundException;
 import com.example.task_management.common.exceptions.UnAuthenticatedException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import io.jsonwebtoken.MalformedJwtException;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
